@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>That's eat — snack Saint-Denis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <a href="#" class="navbar__logo">That's eat</a>
+    <a href="tel:None" class="navbar__reserve">Réserver</a>
+    <button class="navbar__burger" id="burgerBtn" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- Full-screen nav overlay -->
+  <nav class="nav-overlay" id="navOverlay">
+    <ul class="nav-overlay__links">
+      <li><a href="#intro">Notre histoire</a></li>
+      <li><a href="#plats">La Carte</a></li>
+      <li><a href="#ambiance">Galerie</a></li>
+      <li><a href="#avis">Avis</a></li>
+      <li><a href="#infos">Infos</a></li>
+      <li class="nav-overlay__cta"><a href="tel:None">Réserver</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO — Bold gradient overlay -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweplO-RwVmLMQsoDNiGp8ScHOPACAx-9ftv_5IqEs4glwYOWmUepPJWg2vJ_nGsIQuhLaGnyE-ZLHDsIANoCY0Q4KHWzjPyKnUp5IpN8zLr8sT0OpgUone9olrEUeWIu5kNSH_OL5qY6-qHc=w800-h600-k-no" alt="That's eat — snack">
+    </div>
+    <div class="hero__gradient"></div>
+    <div class="hero__content">
+      <span class="hero__badge">snack &middot; Saint-Denis</span>
+      <h1 class="hero__title"></h1>
+      <p class="hero__subtitle">Saveurs fraîches et gourmandes à Saint-Denis</p>
+      <a href="tel:None" class="hero__btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Réserver maintenant
+      </a>
+    </div>
+    <div class="hero__trust">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="#E07A5F" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      <span>4.8/5 — 305 avis</span>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="intro" id="intro">
+    <div class="intro__content">
+      <div class="intro__text-side reveal-left">
+        <span class="intro__label">Notre histoire</span>
+        <p class="intro__text">Bienvenue chez That's eat, situé au cœur de Saint-Denis. Avec une note de 4.8/5 basée sur 305 avis, nous mettons notre expertise à votre service pour une expérience de qualité.</p>
+      </div>
+      <div class="intro__image-side reveal-right">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepOjRMu_5kcjEvEP57R4rA0EvrWfktS88TiL9E4ElFZIQ0miNWDVrkpa5xF4E0hByU_J6gG7HiUuonA4AC8Nu24k-CxGhEaJXTSwo8esBrWBQ7VLwSZ9j0iJe2HLc2MkgY_J9AFUA=w800-h600-k-no" alt="À propos de That's eat" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-rule">
+
+  <!-- PLATS — Bold cards -->
+  <section class="plats" id="plats">
+    <div class="plats__header reveal-up">
+      <span class="plats__label">La Carte</span>
+      <h2 class="plats__title">Nos saveurs</h2>
+    </div>
+    <div class="plats__scroll">
+      <div class="plats__track">
+        <div class="plats__card reveal-up">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwery-QrToVtf2Neu7wlIqMuR2sJO4dU6OkepD9kgb2GkTKfoGZ0BfN0tj0ZKTctI4Z6g5SCR6SBDpAUyUDeGiB7R_z2c8nJBlzFadIK-PdMH_Q0Ky6vrEROi02O9SwRYEsgxx_RzXg=w800-h600-k-no" alt="Entrées" loading="lazy">
+          <div class="plats__card-overlay"></div>
+          <span class="plats__card-name">Entrées</span>
+        </div>
+        <div class="plats__card reveal-up">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepsY7UW5jdeRM9wDpQyTR-LuMxWpLso7l1QQvyiYx06hrUW1N4qMite79JEbjG_VoBV7XZwtodvP7P_FqHnn5urT2I5-si6y3Vu4CgtHgl2gxR2xI49j-W2iU00hnC2hSHcCn9i=w800-h600-k-no" alt="Plats" loading="lazy">
+          <div class="plats__card-overlay"></div>
+          <span class="plats__card-name">Plats</span>
+        </div>
+        <div class="plats__card reveal-up">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqRkPB9OaZ2KJB-GkaA7VZn8nranMiDivYbfd-C70yNS7ut0kGQD69zHPpdPhFMuvm6sonc3qE2WGgvxmYCMc-gCzJ0OQAl_O7Nm1Hay3H3ou53ER2NRuA_78dIDxAk5F7hTcmzbf8gcqa-=w800-h600-k-no" alt="Desserts" loading="lazy">
+          <div class="plats__card-overlay"></div>
+          <span class="plats__card-name">Desserts</span>
+        </div>
+        <div class="plats__card reveal-up">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweo6R99V-kFz0-2k4ozDUim5j6RrSshWOfYnPWlG30Mz7H3sBoeYGGHsRnWhxP8ISnG5r-T6VIs3PtyD-xLYYDMeyXhVqqe_R7BabcxVbQHYkveFFVH9yh33qdZLT_FHMgHQrVpsYWiVtzen=w800-h600-k-no" alt="Boissons" loading="lazy">
+          <div class="plats__card-overlay"></div>
+          <span class="plats__card-name">Boissons</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-rule">
+
+  <!-- AMBIANCE — Gallery -->
+  <section class="ambiance" id="ambiance">
+    <div class="ambiance__header reveal-up">
+      <span class="ambiance__label">Galerie</span>
+    </div>
+    <div class="ambiance__grid">
+      <div class="ambiance__img ambiance__img--large reveal-left">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweofi3Np0jMCDQznLtYqQTYtJkYgHgXMDmtLU3fNxTCm5h5WppYs9wHrsWlPMdlelzbxMAn5tAj3SIQFEZj5GJVwNS_vYtOJRdnTfW2lOkfEfgaRKgZf9Qzb-gdIzSkklxCRmy0EXg=w800-h600-k-no" alt="Ambiance That's eat" loading="lazy">
+      </div>
+      <div class="ambiance__img reveal-right">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqaKJIBBQF-c01NY4oQ7Kcx0Ho7DRfwYA8LfjBEKsRNO5sX9QPnOaKjwepGAzmSWTkiSg-3rj1jxTCsxfxLebReTbaO_XMmjQgfe-gPjrbU3TCUIAgYvPktvqwxoBVDuZU2H8uJ=w800-h600-k-no" alt="Intérieur That's eat" loading="lazy">
+      </div>
+      <div class="ambiance__img reveal-left">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='%23e8e4df'/%3E%3Cg transform='translate(400,270)' opacity='0.35'%3E%3Crect x='-40' y='-30' width='80' height='60' rx='8' fill='none' stroke='%23888' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='16' fill='none' stroke='%23888' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='6' fill='%23888'/%3E%3Crect x='-22' y='-30' width='14' height='8' rx='2' fill='%23888'/%3E%3C/g%3E%3Ctext x='400' y='340' text-anchor='middle' font-family='system-ui,sans-serif' font-size='18' fill='%23999' letter-spacing='2'%3EPhoto %C3%A0 venir%3C/text%3E%3C/svg%3E" alt="Cuisine That's eat" loading="lazy">
+      </div>
+      <div class="ambiance__img reveal-right">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='%23e8e4df'/%3E%3Cg transform='translate(400,270)' opacity='0.35'%3E%3Crect x='-40' y='-30' width='80' height='60' rx='8' fill='none' stroke='%23888' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='16' fill='none' stroke='%23888' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='6' fill='%23888'/%3E%3Crect x='-22' y='-30' width='14' height='8' rx='2' fill='%23888'/%3E%3C/g%3E%3Ctext x='400' y='340' text-anchor='middle' font-family='system-ui,sans-serif' font-size='18' fill='%23999' letter-spacing='2'%3EPhoto %C3%A0 venir%3C/text%3E%3C/svg%3E" alt="Terrasse That's eat" loading="lazy">
+      </div>
+      <div class="ambiance__img reveal-left">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='%23e8e4df'/%3E%3Cg transform='translate(400,270)' opacity='0.35'%3E%3Crect x='-40' y='-30' width='80' height='60' rx='8' fill='none' stroke='%23888' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='16' fill='none' stroke='%23888' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='6' fill='%23888'/%3E%3Crect x='-22' y='-30' width='14' height='8' rx='2' fill='%23888'/%3E%3C/g%3E%3Ctext x='400' y='340' text-anchor='middle' font-family='system-ui,sans-serif' font-size='18' fill='%23999' letter-spacing='2'%3EPhoto %C3%A0 venir%3C/text%3E%3C/svg%3E" alt="Détails That's eat" loading="lazy">
+      </div>
+      <div class="ambiance__img ambiance__img--large reveal-right">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='%23e8e4df'/%3E%3Cg transform='translate(400,270)' opacity='0.35'%3E%3Crect x='-40' y='-30' width='80' height='60' rx='8' fill='none' stroke='%23888' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='16' fill='none' stroke='%23888' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='6' fill='%23888'/%3E%3Crect x='-22' y='-30' width='14' height='8' rx='2' fill='%23888'/%3E%3C/g%3E%3Ctext x='400' y='340' text-anchor='middle' font-family='system-ui,sans-serif' font-size='18' fill='%23999' letter-spacing='2'%3EPhoto %C3%A0 venir%3C/text%3E%3C/svg%3E" alt="Plat That's eat" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-rule">
+
+  <!-- AVIS -->
+  <section class="avis" id="avis">
+    <div class="avis__header reveal-up">
+      <span class="avis__label">Avis clients</span>
+    </div>
+    <div class="avis__cards">
+      <blockquote class="avis__card reveal-left">
+        <p>"Rapide, bon et copieux ! Les produits sont frais et les prix sont corrects. Mon snack préféré à Saint-Denis."</p>
+        <cite>Fabrice T.</cite>
+      </blockquote>
+      <blockquote class="avis__card reveal-up">
+        <p>"Super adresse pour manger sur le pouce. Tout est fait maison, on sent la qualité. Je recommande !"</p>
+        <cite>Florence R.</cite>
+      </blockquote>
+      <blockquote class="avis__card reveal-right">
+        <p>"Accueil sympa et portions généreuses. Le rapport qualité-prix est imbattable. On y retourne souvent."</p>
+        <cite>Thierry D.</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <hr class="section-rule">
+
+  <!-- INFOS -->
+  <section class="infos" id="infos">
+    <div class="infos__grid">
+      <div class="infos__horaires reveal-left">
+        <span class="infos__label">Horaires</span>
+        <table class="infos__table">
+          <tbody>
+            <tr data-day="1"><td>Lundi</td><td>11h00 - 22h00</td></tr>
+            <tr data-day="2"><td>Mardi</td><td>11h00 - 22h00</td></tr>
+            <tr data-day="3"><td>Mercredi</td><td>11h00 - 22h00</td></tr>
+            <tr data-day="4"><td>Jeudi</td><td>11h00 - 22h00</td></tr>
+            <tr data-day="5"><td>Vendredi</td><td>11h00 - 22h00</td></tr>
+            <tr data-day="6"><td>Samedi</td><td>11h00 - 22h00</td></tr>
+            <tr data-day="0"><td>Dimanche</td><td>Fermé</td></tr>
+          </tbody>
+        </table>
+        <p class="infos__address">63 Rue Pasteur, 97400 Saint-Denis</p>
+      </div>
+      <div class="infos__map reveal-right">
+        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=-20.88,55.45&zoom=15" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localisation de That's eat"></iframe>
+      </div>
+    </div>
+    <div class="infos__actions">
+      <a href="tel:None" class="infos__link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Appeler <span class="infos__link-arrow">&rarr;</span>
+      </a>
+      <a href="https://wa.me/" class="infos__link" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+        WhatsApp <span class="infos__link-arrow">&rarr;</span>
+      </a>
+      <a href="https://www.google.com/maps/dir/?api=1&destination=-20.88,55.45" class="infos__link" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Y aller <span class="infos__link-arrow">&rarr;</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <hr class="footer__rule">
+    <div class="footer__inner">
+      <span class="footer__name">That's eat</span>
+      <span class="footer__address">63 Rue Pasteur, 97400 Saint-Denis</span>
+      <span class="footer__credit">Site par <a href="https://lynopi.com" target="_blank" rel="noopener">Lynopi</a></span>
+    </div>
+  </footer>
+
+  <!-- STICKY MOBILE CTA -->
+  <div class="mobile-cta" id="mobileCta">
+    <a href="tel:None" class="mobile-cta__btn mobile-cta__btn--call">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>Appeler</span>
+    </a>
+    <a href="https://wa.me/" class="mobile-cta__btn mobile-cta__btn--wa" target="_blank" rel="noopener">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+    <a href="https://www.google.com/maps/dir/?api=1&destination=-20.88,55.45" class="mobile-cta__btn mobile-cta__btn--map" target="_blank" rel="noopener">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      <span>Y aller</span>
+    </a>
+  </div>
+
+  <script>
+    (function() {
+      'use strict';
+      var burger = document.getElementById('burgerBtn');
+      var overlay = document.getElementById('navOverlay');
+      var overlayLinks = overlay.querySelectorAll('a');
+      burger.addEventListener('click', function() {
+        var isOpen = overlay.classList.toggle('is-open');
+        burger.classList.toggle('is-open');
+        burger.setAttribute('aria-expanded', isOpen);
+        document.body.classList.toggle('menu-open', isOpen);
+      });
+      overlayLinks.forEach(function(link) {
+        link.addEventListener('click', function() {
+          overlay.classList.remove('is-open');
+          burger.classList.remove('is-open');
+          burger.setAttribute('aria-expanded', 'false');
+          document.body.classList.remove('menu-open');
+        });
+      });
+      var navbar = document.getElementById('navbar');
+      var lastScroll = 0;
+      window.addEventListener('scroll', function() {
+        var s = window.pageYOffset;
+        navbar.classList.toggle('is-scrolled', s > 80);
+        if (s > 300) navbar.classList.toggle('is-hidden', s > lastScroll);
+        lastScroll = s;
+      }, { passive: true });
+      var today = new Date().getDay();
+      document.querySelectorAll('.infos__table tr[data-day]').forEach(function(row) {
+        if (parseInt(row.getAttribute('data-day')) === today) row.classList.add('is-today');
+      });
+      var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var reveals = document.querySelectorAll('.reveal-left, .reveal-right, .reveal-up');
+      if (!prefersReduced && 'IntersectionObserver' in window) {
+        var obs = new IntersectionObserver(function(entries) {
+          entries.forEach(function(e) { if (e.isIntersecting) { e.target.classList.add('is-visible'); obs.unobserve(e.target); } });
+        }, { threshold: 0.1, rootMargin: '0px 0px -80px 0px' });
+        reveals.forEach(function(el) { obs.observe(el); });
+      } else {
+        reveals.forEach(function(el) { el.classList.add('is-visible'); });
+      }
+      var heroImg = document.querySelector('.hero__bg img');
+      if (heroImg && !prefersReduced) {
+        window.addEventListener('scroll', function() {
+          var y = window.pageYOffset;
+          if (y < window.innerHeight * 1.5) heroImg.style.transform = 'scale(1.05) translateY(' + (y * 0.12) + 'px)';
+        }, { passive: true });
+      }
+      document.querySelectorAll('a[href^="#"]').forEach(function(a) {
+        a.addEventListener('click', function(e) {
+          var id = this.getAttribute('href'); if (id === '#') return;
+          var t = document.querySelector(id); if (t) { e.preventDefault(); window.scrollTo({ top: t.getBoundingClientRect().top + window.pageYOffset - 100, behavior: 'smooth' }); }
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
